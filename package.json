@@ -1,0 +1,22 @@
+{
+  "name": "tree-view",
+  "version": "1.0.0",
+  "description": "Tree view navigation",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Meph384/tree-view.git"
+  },
+  "author": "Jakub Kozak",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Meph384/tree-view/issues"
+  },
+  "homepage": "https://github.com/Meph384/tree-view#readme",
+  "devDependencies": {
+    "node-sass": "^6.0.1"
+  }
+}
