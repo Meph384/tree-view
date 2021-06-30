@@ -1,0 +1,87 @@
+ul, li {
+    list-style-type: none;
+    color: var(--color-light);
+    border: 1px solid var(--color-primary);
+}
+
+ul, #sTree2 {
+    padding: 0;
+    margin: 0;
+    background-color: var(--color-dark);
+}
+
+#sTree2 li,
+ul#s-l-base li {
+    padding-left: 50px;
+    margin: 5px;
+    border: 1px solid var(--color-primary);
+    background-color: var(--color-dark);
+}
+
+li {
+    div {
+        padding: 7px;
+        background-color: var(--color-primary);
+    }
+}
+
+.del_btn {
+    float: right;
+    background-color: red;
+    border: none;
+    color: var(--color-light);
+    padding: 7px;
+    margin-top: -4px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.input {
+    padding: 10px;
+    width: 350px;
+    margin: 0 auto;
+
+    &__search {
+        padding: 10px;
+        border-radius: 100px;
+
+        &:focus {
+            outline: none;
+            background-color: var(--color-light);
+        }
+    }
+
+    &__button {
+        background-color: var(--color-primary);
+        border: none;
+        border-radius: 100px;
+        color: var(--color-light);
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        cursor: pointer;
+        
+        &:hover {
+            background-color: var(--color-primary-light);
+        }
+    }
+}
+
+.fa-minus:before {
+    content: "\f068";
+    cursor: pointer;
+}
+
+.fa-plus:before {
+    content: "\f067";
+    cursor: pointer;
+}
+
+.c1 {
+    color: red;
+}
+
+.c2 {
+    color: green;
+}
